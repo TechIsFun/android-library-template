@@ -71,7 +71,7 @@ uploadArchives {
         pom.artifactId = 'android-library-template'
 
         pom.project {
-            name '@app_name@'
+            name 'android-library-template'
             packaging 'aar'
             description ''
             url 'https://github.com/TechIsFun/android-library-template'
