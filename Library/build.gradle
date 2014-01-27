@@ -49,6 +49,18 @@ android {
         proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
     }
 
+    android {
+        /*
+        packagingOptions {
+            exclude 'META-INF/LICENSE.txt'
+            exclude 'META-INF/NOTICE.txt'
+        }
+        */
+
+        lintOptions {
+            abortOnError false
+        }
+    }
 }
 
 dependencies {
